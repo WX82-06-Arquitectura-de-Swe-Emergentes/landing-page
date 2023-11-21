@@ -97,3 +97,51 @@ h3 {
   max-width: 470px;
   text-align: center;
 }
+
+#language-toggle {
+  color: #ffffff; /* Color de texto */
+  background-color: #007bff; /* Color de fondo */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 5px 10px; /* Espaciado interno */
+  font-weight: bold; /* Fuente en negrita */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave para hover */
+}
+
+#language-toggle:hover {
+  color: #007bff; /* Color de texto al pasar el ratón por encima */
+  background-color: #ffffff; /* Color de fondo al pasar el ratón por encima */
+  text-decoration: none; /* Eliminar el subrayado del enlace */
+}
+
+.video-container {
+  max-width: 800px; /* Establecer un ancho máximo */
+  margin: 0 auto; /* Centrar el contenedor */
+  padding-top: 40px; /* Espacio en la parte superior */
+  padding-bottom: 40px; /* Espacio en la parte inferior */
+}
+
+.video-container iframe {
+  width: 100%; /* El video ocupa todo el ancho del contenedor */
+  height: 450px; /* Altura fija para pantallas grandes */
+}
+
+@media screen and (max-width: 768px) {
+  .video-container iframe {
+    height: 300px; /* Altura ajustada para pantallas más pequeñas */
+  }
+}
+
+#about-product .section-heading {
+  font-size: 28px; /* Tamaño de la fuente */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  text-align: center; /* Alinear el texto al centro */
+  color: #333; /* Color del texto */
+}
+
+.video-container {
+  transition: all 0.3s ease-in-out;
+}
+
+.video-container:hover {
+  transform: scale(1.05); /* Ligeramente más grande al pasar el ratón por encima */
+}

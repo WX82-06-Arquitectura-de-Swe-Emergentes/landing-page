@@ -62,18 +62,24 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item nav-link">
-              <a class="nav-link active" href="#nosotros">Nosotros</a>
+              <a class="nav-link active" href="#nosotros" id="navAboutUs">Nosotros</a>
             </li>
             <li class="nav-item nav-link">
-              <a class="nav-link active" href="#caracteristicas"
+              <a class="nav-link active" href="#caracteristicas" id="navFeatures"
                 >caracteristicas</a
               >
             </li>
             <li class="nav-item nav-link">
-              <a class="nav-link" href="#planes">planes</a>
+              <a class="nav-link" href="#about-product" id="AboutTheProductSection">Sobre el Producto</a>
             </li>
             <li class="nav-item nav-link">
-              <a class="nav-link" href="#contact">contacto</a>
+              <a class="nav-link" href="#planes" id="navPlans">planes</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="#contact" id="navContact">contacto</a>
+            </li>
+            <li class="nav-item nav-link">
+              <a class="nav-link" href="#" id="language-toggle">Change to English</a>
             </li>
           </ul>
         </div>
@@ -83,8 +89,8 @@
       <div class="container hero">
         <div class="row">
           <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
-            <h1>LA REVOLUCIÓN VIAJERA LLEGÓ.</h1>
-            <p>
+            <h1 id="mainHeading">LA REVOLUCIÓN VIAJERA LLEGÓ.</h1>
+            <p id="mainSubtitle">
               Visita nuestra página AdventureHub para que realices tus viajes de
               manera fácil y rápida.
             </p>
@@ -99,6 +105,7 @@
                   justify-content: center;
                   align-items: center;
                 "
+                id="startJourneyButton"
               >
                 Iniciar mi viaje
                 <ion-icon
@@ -129,8 +136,8 @@
             <img class="img-fluid" src="./img/Nosotross.jpg" />
           </div>
           <div class="col">
-            <h2 class="header">Nosotros</h2>
-            <p class="text-neutral">
+            <h2 id="aboutUsHeading" class="header">Nosotros</h2>
+            <p id="aboutUsText" class="text-neutral">
               <br />AdventureHub, nuestra startup, tiene como objetivo tener un
               entorno mobile que le sugiera a los usuarios un destino según sus
               preferencias, además de organizar un programa de viaje acorde con
@@ -153,13 +160,13 @@
             <img class="img-fluid" src="./img/screenshot2.png" />
           </div>
           <div class="col-md-6 p-40">
-            <h2>Conoce mas nuestra APLICACIÓN</h2>
+            <h2 id="aboutAppTitle">Conoce más nuestra APLICACIÓN</h2>
 
             <div class="row">
               <div class="col">
                 <i class="fa fa-plane m-20 scale-35"></i>
-                <h3 class="my-20">ENCUENTRA VUELO UNICOS</h3>
-                <p>
+                <h3 id="featureUniqueFlightsTitle" class="my-20">ENCUENTRA VUELO UNICOS</h3>
+                <p id="featureUniqueFlightsDesc">
                   Compara opciones de diferentes compañías. Busca diferentes
                   rutas y encuentra las mejores ofertas<br /><br />
                 </p>
@@ -169,8 +176,8 @@
             <div class="row">
               <div class="col">
                 <i class="fa fa-home m-20 scale-35"></i>
-                <h3 class="my-20">LOS MEJORES ALOJAMIENTOS DEL PAÍS</h3>
-                <p>
+                <h3 id="featureBestAccommodationsTitle" class="my-20">LOS MEJORES ALOJAMIENTOS DEL PAÍS</h3>
+                <p id="featureBestAccommodationsDesc">
                   Reserva el hospedaje para tus vacaciones soñadas en cuotas y
                   sin costo de reserva<br /><br />
                 </p>
@@ -179,8 +186,8 @@
             <div class="row">
               <div class="col">
                 <i class="material-icons m-20 scale-25">accessibility</i>
-                <h3 class="my-20">actividades, tours y atracciones</h3>
-                <p>
+                <h3 id="featureActivitiesToursTitle" class="my-20">actividades, tours y atracciones</h3>
+                <p id="featureActivitiesToursDesc">
                   En AdventureHub puedes encontrar una gran variedad de
                   actividades excursiones y atracciones para disfrutar al máximo
                   de tu destino favorito.<br /><br /><br />
@@ -195,8 +202,8 @@
     <section id="caracteristicas" class="features-clean">
       <div class="container">
         <div class="intro">
-          <h2 class="text-center">características</h2>
-          <p class="text-center">
+          <h2 id="featuresHeading" class="text-center">características</h2>
+          <p id="featuresText" class="text-center">
             La aplicación AdventureHub cuenta con las siguientes características
             que lo hacen ideal para la realización de tu próximo viaje.
           </p>
@@ -204,47 +211,47 @@
         <div class="row features">
           <div class="col-sm-6 col-lg-4 item">
             <i class="fa fa-map-marker icon"></i>
-            <h3 class="name">usalo donde estes</h3>
-            <p class="description">
+            <h3 id="feature1Title" class="name">usalo donde estes</h3>
+            <p id="feature1Description" class="description">
               Podrás utilizar nuestra aplicación sea donde estés en el
               territorio nacional.
             </p>
           </div>
           <div class="col-sm-6 col-lg-4 item">
             <i class="fa fa-clock-o icon"></i>
-            <h3 class="name">siempre disponible</h3>
-            <p class="description">
+            <h3 id="feature2Title" class="name">siempre disponible</h3>
+            <p id="feature2Description" class="description">
               Nuestra aplicación estará para ti las 24 horas del día.
             </p>
           </div>
           <div class="col-sm-6 col-lg-4 item">
             <i class="fa fa-list-alt icon"></i>
-            <h3 class="name">personalizable</h3>
-            <p class="description">
+            <h3 id="feature3Title" class="name">personalizable</h3>
+            <p id="feature3Description" class="description">
               Podrás personalizar la configuración dentro de la aplicación de
               acorde a tus necesidades.
             </p>
           </div>
           <div class="col-sm-6 col-lg-4 item">
             <i class="fa fa-lock icon"></i>
-            <h3 class="name">SEGURIDAD</h3>
-            <p class="description">
+            <h3 id="feature4Title" class="name">SEGURIDAD</h3>
+            <p id="feature4Description" class="description">
               Tus datos se mantendrán seguros en nuestra aplicación, gracias a
               nuestro sistema integrado de encriptación.
             </p>
           </div>
           <div class="col-sm-6 col-lg-4 item">
             <i class="fa fa-plane icon"></i>
-            <h3 class="name">rapido</h3>
-            <p class="description">
+            <h3 id="feature5Title" class="name">rapido</h3>
+            <p id="feature5Description" class="description">
               Realizaras tus búsquedas y compras de una manera rápida con
               nuestra aplicación.
             </p>
           </div>
           <div class="col-sm-6 col-lg-4 item">
             <i class="fa fa-desktop icon"></i>
-            <h3 class="name">Web-first</h3>
-            <p class="description">
+            <h3 id="feature6Title" class="name">Web-first</h3>
+            <p id="feature6Description" class="description">
               Diseño enfocado para navegadores web para brindar una mejor
               experiencia.
             </p>
@@ -252,12 +259,29 @@
         </div>
       </div>
     </section>
-
+    <section id="videoAboutTheProduct">
+      <div class="AboutTheProduct">
+        <!-- Sección del Video Sobre el Producto -->
+        <section id="about-product">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2 id="videoAbout" class="section-heading text-center">Sobre Nuestro Producto</h2>
+                <div class="video-container">
+                  <!-- Enlace del video de YouTube -->
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/usGBNnDyIg4?si=Wz2VlJiz9WjKXgil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+    </section>
     <section id="planes" class="team-boxed p-120">
       <div class="container">
         <div class="intro">
-          <h2 class="text-center">PLANES</h2>
-          <p class="text-center">
+          <h2 id="plansSectionTitle" class="text-center">PLANES</h2>
+          <p id="plansSectionDescription" class="text-center">
             AdventureHub posee planes para nuestros dos tipos de clientes. Elige si
             quieres viajar o publicitar tus paquetes de viaje.
           </p>
@@ -265,24 +289,24 @@
         <div class="row people">
           <div class="col-md-6 col-lg-6 item">
             <div class="box">
-              <h3 class="name">turista</h3>
-              <p class="title">free</p>
-              <p class="description">
+              <h3 id="plan1User" class="name">turista</h3>
+              <p id="plan1Title" class="title">free</p>
+              <p id="plan1Description" class="description">
                 <br />Ideal para los viajeros que desean encontrar los mejores
                 planes y paquetes de viaje de acorde a sus preferencias.<br /><br />
               </p>
-              <button class="btn btn-primary" type="submit">elegir</button>
+              <button id="planButton1" class="btn btn-primary" type="submit">elegir</button>
             </div>
           </div>
           <div class="col-md-6 col-lg-6 item">
             <div class="box">
-              <h3 class="name">agencia de viajes</h3>
-              <p class="title">Comisiones</p>
-              <p class="description">
+              <h3 id="plan2User" class="name">agencia de viajes</h3>
+              <p id="plan2Title" class="title">Pagado con comisiones</p>
+              <p id="plan2Description" class="description">
                 <br />Promociona tus paquetes de viaje en nuestra aplicación por
                 un cómodo precio en comisiones.<br /><br />
               </p>
-              <button class="btn btn-primary" type="submit">elegir</button>
+              <button id="planButton2" class="btn btn-primary" type="submit">elegir</button>
             </div>
           </div>
           <div class="w-100"></div>
@@ -300,13 +324,14 @@
     <div class="map-clean">
       <section id="contact" class="contact-clean">
         <form>
-          <h2 class="text-center">contactanos</h2>
+          <h2 id="contactHeading" class="text-center">contactanos</h2>
           <div class="mb-3">
             <input
               class="form-control"
               type="text"
               name="name"
               placeholder="Nombre"
+              id="contactNamePlaceholder"
             />
           </div>
           <div class="mb-3">
@@ -315,6 +340,7 @@
               type="email"
               name="email"
               placeholder="Email"
+              id="contactEmailPlaceholder"
             />
           </div>
           <div class="mb-3">
@@ -323,6 +349,7 @@
               name="message"
               placeholder="Mensaje"
               rows="14"
+              id="contactMessagePlaceholder"
             ></textarea>
           </div>
           <div class="mb-3">
@@ -330,6 +357,7 @@
               class="btn btn-primary"
               type=""
               style="background-color: #00a991"
+              id="contactSendButton"
             >
               Enviar
             </button>
@@ -337,12 +365,11 @@
         </form>
       </section>
     </div>
-
     <footer class="footer-clean">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-4 col-md-3 item">
-            <h3>Contactanos</h3>
+            <h3 id="footerContactHeading">Contactanos</h3>
             <ul>
               <li><a href="#" style="color: #5f738c">AdventureHub.pe</a></li>
               <li><a href="#" style="color: #5f738c">(51) 424-2312</a></li>
