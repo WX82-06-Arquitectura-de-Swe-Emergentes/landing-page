@@ -212,14 +212,24 @@ const textMappings = {
     'es': 'Elegir',
     'en': 'Select'
   },
-  'videoAbout': {
+  'videoAboutProduct': {
     'es': 'Video sobre nuestro producto',
     'en': 'About the product video'
+  },
+  'videoAboutTeam': {
+    'es': 'Video sobre nuestro equipo',
+    'en': 'About the team video'
   },
   'AboutTheProductSection': {
     'es': 'Sobre el producto',
     'en': 'About the product'
   },
+  'AboutTheTeamSection': {
+    'es': 'Sobre el equipo',
+    'en': 'About the team'
+  },
+  
+
   // Añade aquí más mapeos para otros textos de ser necesarios
 };
 
