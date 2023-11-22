@@ -109,7 +109,7 @@ const textMappings = {
     'en': 'You will perform your searches and purchases quickly with our application.'
   },
   'feature6Title': {
-    'es': 'Web-first',
+    'es': 'Optimizado para web',
     'en': 'Web-first'
   },
   'feature6Description': {
@@ -224,7 +224,7 @@ const textMappings = {
 };
 
 // Variable para rastrear el idioma actual
-let currentLanguage = 'es'; // Español por defecto
+let currentLanguage = 'en'; // Español por defecto
 
 document.addEventListener("DOMContentLoaded", function() {
   const langToggle = document.getElementById('language-toggle');
